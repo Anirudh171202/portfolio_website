@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ani_portfolio/static/css/main.9fde0a7f.chunk.css",
-    "main.js": "/ani_portfolio/static/js/main.9d20e717.chunk.js",
-    "main.js.map": "/ani_portfolio/static/js/main.9d20e717.chunk.js.map",
+    "main.js": "/ani_portfolio/static/js/main.74b66a05.chunk.js",
+    "main.js.map": "/ani_portfolio/static/js/main.74b66a05.chunk.js.map",
     "runtime-main.js": "/ani_portfolio/static/js/runtime-main.ac743131.js",
     "runtime-main.js.map": "/ani_portfolio/static/js/runtime-main.ac743131.js.map",
     "static/js/2.3d9950ac.chunk.js": "/ani_portfolio/static/js/2.3d9950ac.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.ac743131.js",
     "static/js/2.3d9950ac.chunk.js",
     "static/css/main.9fde0a7f.chunk.css",
-    "static/js/main.9d20e717.chunk.js"
+    "static/js/main.74b66a05.chunk.js"
   ]
 }
