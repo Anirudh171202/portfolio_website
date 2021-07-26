@@ -12,4 +12,6 @@ code {
     monospace;
 }
 
-body {background-color: coral;}
+body {
+  background: linear-gradient(45deg , rgb(62, 50, 80),rgb(2, 32, 38));
+}

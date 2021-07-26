@@ -35,8 +35,7 @@ function NavBar() {
       expanded={expand}
       fixed="top"
       expand="md"
-      className={navColour ? "sticky" : "navbar"}
-    >
+      className="navbar navbar-expand">
       <Container>
         <Navbar.Brand href="/">
           <img src={logo} className="img-fluid logo" alt="brand" />
@@ -51,8 +50,8 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="ml-auto" defaultActiveKey="#home">
+        <Navbar.Collapse id="responsive-navbar-nav navbar-expand">
+          <Nav className="ml-auto" defaultActiveKey="#home" style={{display:"flex", flexDirection:"row"}}>
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
@@ -88,13 +87,13 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Linkedin
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
-                href="https://blogs.soumyajit.tech/"
+                href="https://www.linkedin.com/in/anirudhsathiya/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -104,7 +103,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/soumyajit4419/Portfolio"
+                href="https://github.com/Anirudh171202"
                 target="_blank"
                 className="fork-btn-inner"
               >
