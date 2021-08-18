@@ -5,10 +5,10 @@ import Home from "./components/Home/home"
 import NavBar from "./components/navbar"
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import { Nav } from 'react-bootstrap';
-import Particles from "react-particles-js"
-import Params from "./components/particlesjs-config.json"
 import Preloader from "../src/components/Pre";
 import React, { useState, useEffect } from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+
 
 function App() {
   const [load, updateLoad] = useState(true);
@@ -24,7 +24,7 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-      <Particles params={Params}/>
+      
       <NavBar/>
       <Switch>
         <Route path="/" exact component={Home} />

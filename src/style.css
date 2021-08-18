@@ -259,6 +259,17 @@ html {
   padding-top: 30px !important;
 }
 
+.home-section2 {
+  position: relative;
+  z-index: -1;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px !important;
+  padding-top: 30px !important;
+  background-color:  #201e35
+}
+
+
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
@@ -327,7 +338,7 @@ html {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.2em !important;
+  font-size: 1.7rem !important;
   text-align: left;
 }
 
@@ -611,6 +622,11 @@ html {
 .resume-left {
   padding-right: 80px !important;
 }
+.resume-centre {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
 
 .resume-right {
   padding-left: 80px !important;
@@ -732,4 +748,24 @@ html {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+
+#particles-js {
+  background-color: #255;
+  z-index: 850;
+  position:relative;
+}
+.flippy-front {
+  width: '200px' ;
+  height: '200px';
+  margin : 50%;
+  background-color: #ffffff;
+  color: #ffffff;
+}
+.flippy-back {
+  width: '200px' ;
+  height: '200px';
+  margin : 50%;
+  background-color:#002b36;
+  color: #ffffff;
 }
