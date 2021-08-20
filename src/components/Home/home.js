@@ -78,7 +78,8 @@ function Home() {
     data-aos-anchor-placement="top-center"
   >
   <Resume /></div>
-  {/* <Projects /> */}
+  <Projects />
+
   <h5 style={{margin:"auto", color: "#ffffff", padding:"50px"}}>Anirudh Sathiya© 2021-22</h5>
   </section>
    

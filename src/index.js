@@ -3,9 +3,22 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Meta from "./meta"
+class Doc extends React.Component{
+  componentDidMount(){
+    document.title = "Anirudh Sathiya"
+  }
 
+  render(){
+    return(
+      <div class="empty"></div>
+    )
+  }
+}
 ReactDOM.render(
   <React.StrictMode>
+    {/* <Meta /> */}
+    <Doc />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

@@ -75,10 +75,10 @@
         "mode": "repulse"
       },
       "onclick": {
-        "enable": true,
+        "enable": false,
         "mode": "grab"
       },
-      "resize": true
+      "resize": false
     },
     "modes": {
       "grab": {
@@ -106,5 +106,5 @@
       }
     }
   },
-  "retina_detect": true
+  "retina_detect": false
 }

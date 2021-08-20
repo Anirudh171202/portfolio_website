@@ -9,11 +9,13 @@ function ResumeContent(props) {
       <p>
         <em>{props.date}</em>
       </p>
+      <div className="resume-text">
       <ul>
         {props.content.map((value, index) => (
-          <li key={index}> ‣ {value}</li>
+          <li key={index} style={{fontsize:"2em"}}> ‣ {value}</li>
         ))}
       </ul>
+      </div>
     </div>
   );
 }

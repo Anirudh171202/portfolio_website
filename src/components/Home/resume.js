@@ -8,13 +8,13 @@ import { AiOutlineDownload } from "react-icons/ai";
 function Resume() {
  
   return (
-    <Container fluid className="resume-section">
+    <Container fluid className="resume-section" id="portfolio">
       <Container>
         <h1>My Portfolio</h1>
         <Row className="resume">
           <Col md={6} className="resume-centre">
             <h3 className="resume-title">Experience</h3>
-            <Resumecontent
+            <Resumecontent style= {{fontSize: "2em"}}
               title="Founder, ScienceAR"
               date="July 2018 - July 2020"
               content={[

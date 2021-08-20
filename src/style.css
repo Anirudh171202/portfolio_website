@@ -338,9 +338,18 @@ html {
 
 .home-about-body {
   padding-top: 50px;
-  font-size: 1.7rem !important;
-  text-align: left;
+  font-size: 1.5vw !important;
+  text-align: centre;
 }
+
+@media only screen and (hover: none) and (pointer: coarse){
+  .home-about-body {
+    padding-top: 50px;
+    font-size: 4.5vw !important;
+    text-align: centre;
+  }
+
+  }
 
 .home-about-social {
   text-align: center !important;
@@ -612,6 +621,8 @@ html {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .resume {
@@ -619,13 +630,21 @@ html {
   padding-bottom: 50px;
 }
 
+.resume-text {
+  font-size: 1.5em;
+}
+
+@media only screen and (hover: none) and (pointer: coarse){ 
+  .resume-text {
+    font-size: 1em;
+  }
+}
 .resume-left {
   padding-right: 80px !important;
 }
 .resume-centre {
-  margin: auto;
-  width: 50%;
   padding: 10px;
+  
 }
 
 .resume-right {
@@ -648,8 +667,17 @@ html {
   font-weight: 700;
   padding-top: 30px;
   padding-bottom: 30px;
+  
+  
 }
 
+.invi-button {
+  background: none;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
@@ -659,12 +687,13 @@ html {
 
 .resume .resume-item .resume-title {
   line-height: 18px;
-  font-size: 0.9em;
+  font-size: 1.7em;
   background: #5234795d;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  line-height: 25px;
 }
 
 .resume .resume-item ul {
@@ -695,7 +724,7 @@ html {
 
 .like-item {
   padding-top: 10px !important;
-  font-size: 1.1em !important;
+  font-size: 3.7em !important;
   font-family: sans-serif !important;
 }
 
@@ -729,7 +758,7 @@ html {
 }
 
 .fork-btn {
-  font-size: 1.1em !important;
+  font-size: 1.7em !important;
   padding-top: 10px !important;
 }
 

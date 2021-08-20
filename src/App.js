@@ -5,7 +5,7 @@ import Home from "./components/Home/home"
 import NavBar from "./components/navbar"
 import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import { Nav } from 'react-bootstrap';
-import Preloader from "../src/components/Pre";
+import Preloader from "./components/Pre";
 import React, { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -24,7 +24,6 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-      
       <NavBar/>
       <Switch>
         <Route path="/" exact component={Home} />
