@@ -7,6 +7,8 @@ import Home2 from "./about"
 import "aos/dist/aos.css"
 import Resume from "./resume"
 import Projects from "./projects";
+let current_time= new Date();
+let year = current_time.getFullYear();
 AOS.init({
   // Global settings:
   disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
@@ -80,7 +82,7 @@ function Home() {
   <Resume /></div>
   <Projects />
 
-  <h5 style={{margin:"auto", color: "#ffffff", padding:"50px"}}>Anirudh Sathiya© 2021-22</h5>
+  <h5 style={{margin:"auto", color: "#ffffff", padding:"50px"}}>Anirudh Sathiya© {year}</h5>
   </section>
    
   );
